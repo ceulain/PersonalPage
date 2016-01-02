@@ -80,6 +80,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+a:link{
+    color: #1abc9c;
+}
+
+
 .navbar-brand {
     font-weight: 700;
 }
@@ -268,9 +273,6 @@ border-color: #1abc9c;
 color : #FFFFFF;
 }
 
-a:link{
-color: #1abc9c;
-}
 
 
 
