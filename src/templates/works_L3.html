@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <meta name="description" content="Personal Page">
+    <meta name="author" content="Bansimba Ceulain Barth">
+    <link rel="icon" href="img/icon.ico" type="image/x-icon">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-65340809-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </head>
+
+
+  <body>
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	    <span class="sr-only">Toggle navigation</span>
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	  </button>
+	  <a class="navbar-brand" href="index.html">My Personal Page</a>
+	</div>
+	<div class="navbar-collapse  collapse">
+	  <ul class="nav navbar-nav navbar-right">
+	    <li class="active"><a href="index.html">Home</a></li>
+	    <li><a href="about.html">About</a></li>
+	    <li><a href="index.html#works">Works</a></li>
+	  </ul>
+	</div><!-- nav collapse -->
+      </div>
+    </div>
+
+
+    <div id="workwrap">
+      <div class="container">
+	<div class="row">
+	  <div class="col-lg-6 col-lg-offset-3">
+	    <h4>Academic Project</h4>
+	    <h1>License 3</h1>
+	  </div>
+	</div><!--/row -->
+      </div> <!-- /container -->
+    </div><!--/workwrap -->
+
+    <section id="works">
+      <div class="container">
+	<div class="row">
+	  <div class="col-sm-6 col-md-3">
+	    <div class="thumbnail">
+	      <img src="img/network_prog_img.jpg" alt="">
+	      <div class="caption">
+		<h3>Network Programming</h3>
+		<p><a href="#NetworkProgModal" class="btn btn-primary" role="button" data-toggle="modal">Details</a></p>
+	      </div>
+	    </div> <!-- thumbnail -->
+	  </div>
+	  <div class="col-sm-6 col-md-3">
+	    <div class="thumbnail">
+	      <img src="img/poo_img.jpg" alt="">
+	      <div class="caption">
+		<h3>Oriented-Object Programming</h3>
+		<p><a href="#POOModal" class="btn btn-primary" role="button" data-toggle="modal">Details</a></p>
+	      </div>
+	    </div> <!-- thumbnail -->
+	  </div>
+	  <div class="col-sm-6 col-md-3">
+	    <div class="thumbnail">
+	      <img src="img/img_system.jpg" alt="">
+	      <div class="caption">
+		<h3>System Programming</h3>
+		<p><a href="#SystemModal" data-toggle="modal" class="btn btn-primary" role="button">Details</a></p>
+	      </div>
+	    </div> <!-- thumbnail -->
+	  </div>
+	  <div class="col-sm-6 col-md-3">
+	    <div class="thumbnail">
+	      <img src="img/img_databases.jpg" alt="">
+	      <div class="caption">
+		<h3>Database</h3>
+		<p><a href="#DatabaseModal" data-toggle="modal" class="btn btn-primary" role="button">Details</a></p>
+	      </div>
+	    </div> <!-- thumbnail -->
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="col-sm-6 col-md-3">
+	    <div class="thumbnail">
+	      <img src="img/img_function.jpeg" alt="">
+	      <div class="caption">
+		<h3>Functional Programming</h3>
+		<p><a href="#FunctionalModal" class="btn btn-primary" role="button" data-toggle="modal">Details</a></p>
+	      </div>
+	    </div> <!-- thumbnail -->
+	  </div>
+	  <div class="col-sm-6 col-md-3">
+	    <div class="thumbnail">
+	      <img src="img/miscellaneous.jpg" alt="">
+	      <div class="caption">
+		<h3>Miscellaneous</h3>
+		<p><a href="#MiscellaneaousModal" class="btn btn-primary" role="button" data-toggle="modal">Details</a></p>
+	      </div>
+	    </div> <!-- thumbnail -->
+	  </div>
+	</div>
+	
+      </div>
+
+      <div id="NetworkProgModal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+	    <div class="modal-header">
+	      <button type="button" class="close" data-dismiss="modal">&times;</button>
+	      <h4>Network Programming</h4>
+	    </div>
+
+	    <div class="modal-body">
+	      <p>Implementation of information diffusion system.  The system is triparti and run like a radio. The center is only composed transmitter that broadcast without interruption </br>
+		Technology used : 		     
+	      </p>
+	      <ul style="text-align:initial">
+		<li>Concurency Java : Thread</li>
+		<li>API Java TCP : ServerSocket, Server</li>
+		<li>API Java UDP : DatagramSocket, DatagramPacket, InetAdress, InetSocketAdress</li>
+	      </ul>
+	      <p><a href="files/Projet2012.pdf">subject</a></p>
+	    </div>
+	  </div>
+	</div>
+      </div>
+      <div id="POOModal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+	    <div class="modal-header">
+	      <button type="button" class="close" data-dismiss="modal">&times;</button>
+	      <h4>Oriented-Object Programming</h4>
+	    </div>
+
+	    <div class="modal-body">
+	      <p>Implementation in Java multi-set, set and sorted list without using the existing libraries such as any one that implements the Collection interface. Implemented only with array and lined list(not class java)</p>
+	      <p>Implementation of operation below for all those structures :</p>
+	      <ul style="text-align:initial">
+		<li>empty constructor</li>
+		<li>add element</li>
+		<li>remove element</li>
+		<li>production of enumerator</li>
+		<li>redefinition of method toString()</li>
+		<li>implementation of operation union and intersection</li>
+	      </ul>
+	      <p><a href="files/poo-projet.pdf">subject</a></p>		
+	    </div>
+	  </div>
+	</div>
+      </div>
+      
+      <div id="DatabaseModal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+	    <div class="modal-header">
+	      <button type="button" class="close" data-dismiss="modal">&times;</button>
+	      <h4>Database</h4>
+	    </div>
+
+	    <div class="modal-body">
+	      <p>Implementation of management system for export company </br>
+		Technology used :</p>
+	      <ul style="text-align:initial">
+		<li>Language Java</li>
+		<li>Postgres</li>
+		<li>Language SQL</li>
+		<li>JDBC(Java DataBase Connectivity)</li>
+	      </ul>
+	      <p><a href="files/projet_database_l3.pdf">subject</a></p>
+
+	    </div>
+	  </div>
+	</div>
+      </div>
+
+      <div id="SystemModal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+	    <div class="modal-header">
+	      <button type="button" class="close" data-dismiss="modal">&times;</button>
+	      <h4>System Programming</h4>
+	    </div>
+
+	    <div class="modal-body">
+	      <p>Tool for synchronize directories  </br>
+		Technology used :</p>
+	      <ul style="text-align:initial">
+		<li>Language C</li>
+		<li>Function POSIX : read, open, write and close</li>
+		<li>Symbolic link : symlink, link, stat</li>
+	      </ul>
+	      <p><a href="files/Projet Programmation systemes 2012.html.pdf">subject</a></p>
+	    </div>
+	  </div>
+	</div>
+      </div>
+
+
+      <div id="FunctionalModal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+	    <div class="modal-header">
+	      <button type="button" class="close" data-dismiss="modal">&times;</button>
+	      <h4>Functional Programming</h4>
+	    </div>
+
+	    <div class="modal-body">
+	      <p>Implementation of algorithm Seam Carving(photoshop)</p>
+	      <p>Technology used :</p>
+	      <ul style="text-align:initial">
+		<li>Language OCAML</li>
+	      </ul>
+	    </div>
+	  </div>
+	</div>
+      </div>
+
+      <div id="MiscellaneaousModal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+	    <div class="modal-header">
+	      <button type="button" class="close" data-dismiss="modal">&times;</button>
+	      <h4>Miscellaneous</h4>
+	    </div>
+
+	    <div class="modal-body">
+	      
+	      <p>I also followed the courses below :</p>
+	      <ul style="text-align:initial">
+		<li>Discrete mathematics</li>
+		<li>Algorithm</li>
+		<li>Compilation</li>
+	      </ul>
+	      
+	    </div>
+	  </div>
+	</div>
+      </div>
+
+    </section>
+    
+
+</div><!--/row -->
+</div><!--/container -->
+
+<div id="social">
+  <div class="container">
+    <div class="row centered">
+      <div class="col-lg-4">
+	<a href="https://www.facebook.com/ceulain.bansimba"><i class="fa fa-facebook"></i></a>
+      </div>
+      <div class="col-lg-4">
+	<a href="https://twitter.com/barthsims"><i class="fa fa-twitter"></i></a>
+      </div>
+      <div class="col-lg-4">
+	<a href="https://fr.linkedin.com/pub/ceulain-bansimba/30/391/898"><i class="fa fa-linkedin"></i></a>
+      </div>
+      <!--<div class="col-lg-3">
+	  <a href="https://github.com/ceulain"><i class="fa fa-github"></i></a>
+      </div> -->
+    </div><!-- row -->
+  </div><!-- container -->
+</div><!-- social -->
+
+<div id="footerwrap">
+  <div class="container">
+    <div class="row centered">
+
+      <div class="col-lg-4">
+	<p><b>DEVELOPER MOBILE & WEB , SPORT ADDICT</b></p>
+      </div>
+
+      <div class="col-lg-4">
+	<p>Living in Sophia-Antipolis</p>
+      </div>
+
+      <div class="col-lg-4">
+	<p><a href="mailto:ceulain.bansimba@outlook.com">ceulain.bansimba@outlook.com</a></p>
+      </div>
+
+    </div>
+  </div>
+</div> <!-- footerwrap -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

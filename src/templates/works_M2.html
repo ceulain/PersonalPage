@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <meta name="description" content="Personal Page">
+    <meta name="author" content="Bansimba Ceulain Barth">
+    <link rel="icon" href="img/icon.ico" type="image/x-icon">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-65340809-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </head>
+  <body>
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+	  </button>
+	  <a class="navbar-brand" href="index.html">My Personal Page</a>
+	</div>
+	<div class="navbar-collapse  collapse">
+	  <ul class="nav navbar-nav navbar-right">
+	    <li class="active"><a href="index.html">Home</a></li>
+	    <li><a href="about.html">About</a></li>
+	    <li><a href="index.html#works">Works</a></li>
+	  </ul>
+	</div><!-- nav collapse -->
+      </div>
+    </div>
+
+
+    <div id="workwrap">
+      <div class="container">
+	<div class="row">
+	  <div class="col-lg-6 col-lg-offset-3">
+	    <h4>Academic Project</h4>
+	    <h1>MASTER 2</h1>
+	  </div>
+	</div><!--/row -->
+      </div> <!-- /container -->
+    </div><!--/workwrap -->
+
+    <section id="works">
+      <div class="container">
+	<div class="row">
+
+	  <div class="col-sm-6 col-md-3">
+	    <div class="thumbnail">
+	      <img src="img/img_data_mining.jpg" alt="">
+	      <div class="caption">
+		<h3>Data mining</h3>
+		<p><a href="#" class="btn btn-primary" role="button" data-toggle="modal" data-target="#DataMiningModal">Details</a></p>
+	      </div>
+	    </div> <!-- thumbnail -->
+	  </div>
+
+	  <div class="col-sm-6 col-md-3">
+	    <div class="thumbnail">
+	      <img src="img/img_apple.jpg" alt="">
+	      <div class="caption">
+		<h3>Mac_OSX et IOS</h3>
+		<p><a href="#" class="btn btn-primary" role="button" data-toggle="modal" data-target="#AppleModal">Details</a></p>
+	      </div>
+	    </div> <!-- thumbnail -->
+	  </div>
+
+	  <div class="col-sm-6 col-md-3">
+	    <div class="thumbnail">
+	      <img src="img/miscellaneous.jpg" alt="">
+	      <div class="caption">
+		<h3>Miscellaneous</h3>
+		<p><a href="#" class="btn btn-primary" role="button" data-toggle="modal" data-target="#MiscellaneousModal">Details</a></p>
+	      </div>
+	    </div> <!-- thumbnail -->
+	  </div>
+	</div><!--/row -->
+      </div><!--/container -->
+
+
+      <div id="DataMiningModal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+	    <div class="modal-header">
+	      <button type="button" class="close" data-dismiss="modal">&times;</button>
+	      <h4>Data Mining</h4>
+	    </div>
+	    <div class="modal-body">
+	      <p>Realization of application do the prediction of football match </br> Technology used : </p>
+	      <ul style="text-align:initial">
+		<li>Postgres SQL</li>
+		<li>Library JSoup for data extraction</li>
+		<li>Implemention of algorithm based on football club statitics</li>
+		<li>JDBC</li>
+	      </ul>
+	    </div>
+	  </div>
+	</div>
+      </div>
+
+      <div id="AppleModal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+	    <div class="modal-header">
+	      <button type="button" class="close" data-dismiss="modal">&times;</button>
+	      <h4>Mac_OSX et IOS</h4>
+	    </div>
+	    <div class="modal-body">	      
+	      <p>Realization of three pratical works : </p>
+ 	      <ul style="text-align:initial"> 
+		<li>Quartz composer <a href="http://www.liafa.jussieu.fr/~yunes/cours/macosx/tps/1314/tp1.html">subject</a></li>
+		<li>Super destructor <a href="http://www.liafa.jussieu.fr/~yunes/cours/macosx/tps/1415/tp2.html">subject</a></li>
+		<li>Parsing XML, IOS <a href="http://www.liafa.jussieu.fr/~yunes/cours/macosx/tps/1314/tp4.html">subject</a></li>
+	      </ul>
+	      <p>Technology used :</p>
+	      <ul style="text-align:initial">
+		<li>Objective C</li>
+		<li>Cocoa</li>
+		<li>Xcode</li>
+		<li>Storyboard</li>
+	      </ul>
+	    </div>
+	  </div>
+	</div>
+      </div>
+
+      <div id="MiscellaneousModal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+	    <div class="modal-header">
+	      <button type="button" class="close" data-dismiss="modal">&times;</button>
+	      <h4>Miscellaneous</h4>
+	    </div>
+	    <div class="modal-body">
+	      <p>I also followed the courses below :</p>
+	      <ul style="text-align:initial">
+		<li>Distributed algorithm</li>
+		<li>Embedded computer science</li>
+		<li>System and administration network</li>
+		<li>Free soft</li>
+		<li>Right of computer science</li>
+	      </ul>
+	    </div>
+	  </div>
+	</div>
+      </div>
+    </section>
+    <div id="social">
+      <div class="container">
+	<div class="row centered">
+	  <div class="col-lg-4">
+	    <a href="https://www.facebook.com/ceulain.bansimba"><i class="fa fa-facebook"></i></a>
+	  </div>
+	  <div class="col-lg-4">
+	    <a href="https://twitter.com/barthsims"><i class="fa fa-twitter"></i></a>
+	  </div>
+	  <div class="col-lg-4">
+	    <a href="https://fr.linkedin.com/pub/ceulain-bansimba/30/391/898"><i class="fa fa-linkedin"></i></a>
+	  </div>
+	  <!--<div class="col-lg-3">
+	      <a href="https://github.com/ceulain"><i class="fa fa-github"></i></a>
+	  </div> -->
+	</div><!-- row -->
+      </div><!-- container -->
+    </div><!-- social -->
+
+    <div id="footerwrap">
+      <div class="container">
+	<div class="row centered">
+	  
+	  <div class="col-lg-4">
+	    <p><b>DEVELOPER MOBILE & WEB , SPORT ADDICT</b></p>
+	  </div>
+	  
+	  <div class="col-lg-4">
+	    <p>Living in Sophia-Antipolis</p>
+	  </div>
+
+	  <div class="col-lg-4">
+	    <p><a href="mailto:ceulain.bansimba@outlook.com">ceulain.bansimba@outlook.com</a></p>
+	  </div>
+	  
+	</div>
+      </div>
+    </div> <!-- footerwrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
